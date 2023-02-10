@@ -1,0 +1,154 @@
+
+body {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0%;
+}
+#logo{
+    display: flex;
+    width: 100px;
+}
+header {
+    display: flex;;
+    flex-direction: column;
+    background: black;;
+    align-content: flex-start;
+    padding: 20px;
+    flex-wrap: nowrap;
+    
+}
+.nav-bar{
+    display: flex;
+    flex-direction: column;
+    padding: 0%;
+    margin-bottom: 1px;
+    
+}
+.list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 150px;
+}
+#line {
+    color: #282828;
+}
+.mini-cover {
+    width: 70px;
+    padding-right: 10px;
+}
+.medium-cover {
+    width: 160px;
+    border-radius: 4px;
+}
+main {
+    display: flex;
+    padding: 40px;
+    flex-direction: column;
+    align-content: flex-end;
+    background: linear-gradient(180deg,  #1A123E 0%, #121212 50%);
+}
+#top-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#lasted-played {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: space-between;
+}
+.last-played {
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    background-color: #2F2A3F;
+    border-radius: 8px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    width: 470px;
+    align-items: center;
+} 
+.carrousel {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: space-between;
+}
+.item {
+    padding: 15px;
+    flex-wrap: wrap;
+    background-color: #181818;
+    border-radius: 10%;
+    border-radius: 8px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    
+}
+ul {
+    list-style-type: none;
+}
+
+h1 {
+    color: white;
+}
+
+h2 {
+    color: white;
+}
+
+h3 {
+    color: white;
+    font-size: 10pt;
+}
+h4 {
+    color: white;
+    font-size: 14px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 160px;
+}
+
+li {
+    display: flex;
+    flex-direction: row;
+}
+
+p {
+    color: white;
+    font-size: 11px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.unselected {
+    color: #B3B3B3;
+    font-size: 11px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+#rounded {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    background-color:#100A26;
+    border: none;
+    flex-direction: row;
+}
+
+.layout{
+    display: flex;
+    flex-direction: row;
+}
+span {
+    color: white;
+    padding-right: 10px;
+}
